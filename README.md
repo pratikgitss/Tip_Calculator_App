@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 The following **extensions** are implemented:
 
 * [ ] Custom colors palette selected
-* [ ] List anything else that you did to improve the app functionality or design!
+* [ ] future updates
 
 ## Video Walkthrough
 
@@ -26,11 +26,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://j.gifs.com/k2kR9X.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Gifs.com](https://gifs.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a good project as a beginner.
 
 ## License
 
