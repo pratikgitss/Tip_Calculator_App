@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tippy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- primary band color. -->
+        <item name ="colorPrimary">@color/estate_blue</item>
+        <item name ="colorPrimaryVariant">@color/primary_green</item>
+        <item name ="colorOnPrimary">@color/white</item>
+        <!-- Secondary band color. -->
+        <item name ="colorSecondary">@color/teal_200</item>
+        <item name ="colorSecondaryVariant">@color/teal_700</item>
+        <item name ="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name ="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:colorBackground">@color/background_blue</item>
+    </style>
+
+    <style name="Theme.Tippy" parent="Base.Theme.Tippy" />
+</resources>
