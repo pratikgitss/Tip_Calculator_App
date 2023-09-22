@@ -69,11 +69,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateTipDescription(tipPercent: Int) {
         val tipDescription = when (tipPercent){
-            in 0..9 -> "Poor"
-            in 1..14 -> "Acceptable"
-            in 15..19 ->  "Good"
-            in 20..24 -> "Great"
-            else -> "Amazing"}
+            in 0..9 -> "\uD83D\uDE1E\t"
+            in 1..14 -> "\uD83D\uDE00"
+            in 15..19 ->  "\uD83D\uDE01"
+            in 20..24 -> "\uD83E\uDD29"
+            else -> "\uD83E\uDD73"}
         tvTipDescription.text = tipDescription
         //update the color based on the tip percent
         val color = ArgbEvaluator().evaluate(
